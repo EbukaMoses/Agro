@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Ubuntu!important;
+}
+* {
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+.page_image {
+    width: 100%;
+    height: 85vh;
+    background: url(../images/background5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header {
+    width: 100%;
+/*    height: 20px;*/
+    background-color: #fff!important;
+/*    padding: 0.5%;   */
+}
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 80vh;
+}
+.nav-link, .nav-item a {
+    color: #fff!important;
+    font-weight: bolder!important;
+}
+.nav-item .dropdown-item:hover{
+    color: #008000!important;
+}
+.navbar-toggler span {
+    color: aliceblue;
+}
+#caption {
+    font-size: 350%;
+    color: #FE6501;
+}
+#caption2 {
+    font-size: 150%;
+    color: #fff;
+    background: rgb(0,0,0,0.5);
+    font-weight: bolder!important;
+    
+}
+#search:focus {
+    outline-offset: inherit;
+}
+#how_we_work {
+    width: 100%;
+    background-image: url(../images/slide/Food48.jpg);
+/*    background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#card {
+    text-align: center;
+    width: auto;
+    height: 40vh;
+}
+#icon {
+    font-size: 35px;
+    margin-bottom: 5%;
+/*    padding: 2%;*/
+/*    border: 2px solid #FE6501;*/
+/*    border-radius: 100px;*/
+}
+#panel {
+    background: #218838;
+    color: #fff;
+}
+#panel img {
+    border-radius: 8px;
+}
+#panel h4 {
+    color: #FE6501;
+}
+#team {
+    background-color: #d8d1d1;
+/*    background-image: url(../images/team.jpg);*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#hr {
+    height: 2px;
+    background-color: #218838;
+}
+#slide_btn {
+    width: 50%;
+    height: 12px;
+}
+
+/*--------------------------------------CSS FOR BUYER PAGE*/
+.card-header {
+    overflow: hidden;    
+    margin: 0;
+    padding: 0;
+}
+.in, .sin {
+    display: none;
+}
+#signin_btn, #ssignin_btn {
+    color: blue;
+    cursor: pointer;
+}
+#panel_header, #spanel_header {
+    background-color: green!important;
+    color: white;
+}
+#sign_io, #ssign_io {
+    font-size: 14px;
+}
+/*--------------------------------------END OF CSS FOR BUYER PAGE*/
+
+#footer {
+    background-color: #000000;
+    width: 100%;
+}
+.footer_header {
+    color:#DB7809;
+    background-color: transparent;
+    font-size: 17.6px;
+    line-height: 1.5em (26.4px);
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    text-indent: 0px;
+}
+#input {
+    margin-left: -12px;
+    font-size: 13px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.5px dotted #A9A9A9;
+    border-radius: 0px;
+    background-color: #000;
+   
+}
+#input:active, #input:focus {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    background-color: #151515;
+}
+#footer_Qlink a {
+    color: #fff;
+    text-decoration: none;
+}
+#footer_Qlink a:hover {
+    color:#DB7809;
+    
+}
+#footer_Qlink {
+    color: #A29E8F;    
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.4em (15.68px);
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: none rgb(162, 158, 143);
+    text-align: center;
+    text-indent: 0px;
+}#footer_btn {
+    width: 120px;
+    border: 0px;
+    border-radius: 0px;
+    background-color: #218838;
+    font-size: 16px;
+    
+}
+#phone_no {
+    color: #999;
+}
+#address_no {
+     color: #999999;
+}
+#address_title {
+    color: #999999;
+    font-weight: 600;
+}
+#portfolio {
+    color: #999;
+    font-size: 16px;
+    font-weight: 900;
+}
+#portfolio:hover {
+    text-decoration: none;
+}
+#reserved_right {
+    color: #fff;
+}
+#go_to {
+/*    margin-top: 16px;*/
+    bottom: 20px;
+    right: 30px;
+    width: 50px;
+    border: 2px solid #CA4701;
+    border-radius: 50%;
+    position: fixed;
+}
+/*------------SOCIAL NETWORK---------------*/
+.fb-bg:hover, .twi-bg:hover, .g-bg:hover, .ins-bg:hover, .lin-bg:hover {
+   
+}
+.fb-icon-bg {
+	background: #354f88;
+	height: 37px;
+	margin: 0 0 -37px 0;
+	width: 41px;    
+}
+.fb-icon-bg:after {
+    content: "\f09a";
+    font-family: FontAwesome;
+    display: block;
+    padding: 9px 10px 5px 15px;
+    color:#fff;
+}
+.fb-bg {
+	background: #3b5998;
+	display: block;
+	height: 37px;
+	margin: 0 0 10px 41px;
+}
+
+.fb-bg:after {
+	color: #fff;
+	content: "Facebook";
+	height: 37px;
+	left: -4%;
+	position: relative;
+	font-family: 'Playfair Display', serif;
+	top: 22%;
+	width: 41px;    
+}
+.fb-bg:hover{
+   cursor: pointer;
+}
+.fb-bg:active{
+   background: #354f88;
+}
+/* Twitter */
+.twi-icon-bg:after {
+   content: "\f099"; font-family: FontAwesome;
+   display: block;
+   padding: 11px 10px 6px 11px;
+   color:#fff;
+}
+.twi-icon-bg {
+	background: #40a2d1;
+	height: 37px;
+	margin: 0 0 -37px 0;
+	width: 41px; 
+}
+.twi-bg {
+	background: #45b0e3;
+	height: 37px;
+	margin: 0 0 10px 41px;
+} 
+.twi-bg:after {
+	color: #fff;
+	content: "Twitter";
+	height: 37px;
+    left: -4%;
+	position: relative;
+    font-family: 'Playfair Display', serif;
+	top: 22%;
+    width: 41px; 
+}
+.twi-bg:hover {
+    cursor: pointer;
+}
+.twi-bg:active {
+    background: #40a2d1;
+} 
+/* Google+ */
+.g-icon-bg:after {
+   content: "\f0d5"; font-family: FontAwesome;
+   display: block;
+   padding: 11px 10px 6px 13px;
+   color:#fff;
+}
+.g-icon-bg {
+	background: #ce3e26;
+	height: 37px;
+	margin: 0 0 -37px 0;
+	width: 41px; 
+} 
+.g-bg {
+	background: #de4c34;
+	height: 37px;
+	margin: 0 0 10px 41px;
+}
+ 
+.g-bg:after {
+	color: #fff;
+	content: "Google+";
+	height: 37px;
+	left: -4%;
+	position: relative;
+	font-family:'Playfair Display', serif;
+	top: 22%;
+	width: 41px; 
+}
+.g-bg:hover {
+    cursor: pointer;
+}
+.lin-icon-bg {
+    background: #075e8c;
+    height: 37px;
+    margin: 0 0 -37px 0;
+    width: 41px;
+}
+.lin-icon-bg:after {
+    content: "\f0e1";
+    font-family: FontAwesome;
+    display: block;
+    padding: 11px 10px 6px 13px;
+    color: #fff;
+}
+.lin-bg {
+    background: #0077B5;
+    height: 37px;
+    margin: 0 0 10px 41px;
+}
+.lin-bg:after {
+    color: #fff;
+    content: "Follow up on Linkedin";
+    height: 37px;
+    left: -4%;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    top: 22%;
+    width: 41px;
+}
+.ins-icon-bg {
+    background: #980d98;
+    height: 37px;
+    margin: 0 0 -37px 0;
+    width: 41px;
+}
+.ins-icon-bg:after {
+    content: "\f16d";
+    font-family: FontAwesome;
+    display: block;
+    padding: 11px 10px 6px 13px;
+    color: #fff;
+}
+.ins-bg {
+    background: #C72DC7;
+    height: 37px;
+    margin-left: 41px;
+}
+.ins-bg:after {
+    color: #fff;
+    content: "Follow us on Instagram";
+    height: 37px;
+    left: -4%;
+    position: relative;
+    font-family:'Playfair Display', serif;
+    top: 22%;
+    width: 41px;
+    
+}
